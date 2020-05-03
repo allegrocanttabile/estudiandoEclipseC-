@@ -1,0 +1,1708 @@
+
+**** Build of configuration Debug for project Estudiando02 ****
+
+Nothing to build for project Estudiando02
+Build not configured correctly
+20:40:12 **** Clean-only build of configuration Default for project Estudiando03 ****
+make clean 
+rm -f Estudiando03.o Estudiando03
+20:40:12 **** Clean-only build of configuration Debug for project Prueba ****
+make clean 
+rm -rf  ./src/Prueba.o  ./src/Prueba.d  Prueba
+ 
+Build not configured correctly
+20:41:33 **** Build of configuration Debug for project Estudiando02 ****
+make all 
+Building file: ../Estudiando02.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Estudiando02.d" -MT"Estudiando02.o" -o "Estudiando02.o" "../Estudiando02.cpp"
+Finished building: ../Estudiando02.cpp
+ 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:41:33 **** Build of configuration Default for project Estudiando03 ****
+make all 
+g++ -O2 -g -Wall -fmessage-length=0   -c -o Estudiando03.o Estudiando03.cpp
+g++ -o Estudiando03 Estudiando03.o 
+20:41:34 **** Build of configuration Debug for project Estudiando04 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./main.o   
+Finished building target: Estudiando04
+ 
+
+**** Build of configuration Debug for project Estudiando05 ****
+
+Nothing to build for project Estudiando05
+20:41:34 **** Build of configuration Debug for project Prueba ****
+make all 
+Building file: ../src/Prueba.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba.d" -MT"src/Prueba.o" -o "src/Prueba.o" "../src/Prueba.cpp"
+../src/Prueba.cpp: In function ‘int main()’:
+../src/Prueba.cpp:23:8: warning: unknown escape sequence: '\S'
+  cout<<"n\Sexo: "<<sexo<<endl;
+        ^~~~~~~~~~
+../src/Prueba.cpp:24:8: warning: unknown escape sequence: '\T'
+  cout<<"n\Talla: "<<altura<<endl;
+        ^~~~~~~~~~~
+Finished building: ../src/Prueba.cpp
+ 
+Building target: Prueba
+Invoking: Cross G++ Linker
+g++  -o "Prueba"  ./src/Prueba.o   
+Finished building target: Prueba
+ 
+20:41:53 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:54 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:32 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+Build not configured correctly
+21:04:37 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:04:37 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:37 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project Estudiando05 ****
+
+Nothing to build for project Estudiando05
+21:04:37 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:42 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:33 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:38 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:22 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+Build not configured correctly
+21:15:04 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:05 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:05 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+
+**** Build of configuration Debug for project Estudiando05 ****
+
+Nothing to build for project Estudiando05
+21:15:05 **** Build of configuration Debug for project Estudiando06 ****
+make all 
+Building file: ../src/Estudiando06.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Estudiando06.d" -MT"src/Estudiando06.o" -o "src/Estudiando06.o" "../src/Estudiando06.cpp"
+Finished building: ../src/Estudiando06.cpp
+ 
+Building target: Estudiando06
+Invoking: GCC C++ Linker
+g++  -o "Estudiando06"  ./src/Estudiando06.o   
+Finished building target: Estudiando06
+ 
+21:15:06 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:15 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+21:58:45 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./main.o   
+Finished building target: Estudiando04
+ 
+22:08:42 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+Building file: ../E04.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"E04.d" -MT"E04.o" -o "E04.o" "../E04.cpp"
+Finished building: ../E04.cpp
+ 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./E04.o ./main.o   
+/usr/bin/ld: ./main.o: in function `main':
+/home/allegro/eclipse-workspace/Estudiando04/Debug/../main.cpp:4: multiple definition of `main'; ./E04.o:/home/allegro/eclipse-workspace/Estudiando04/Debug/../E04.cpp:4: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando04] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+Build not configured correctly
+22:11:23 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:11:23 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:11:23 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./main.o   
+Finished building target: Estudiando04
+ 
+22:11:23 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+Building file: ../E05.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"E05.d" -MT"E05.o" -o "E05.o" "../E05.cpp"
+Finished building: ../E05.cpp
+ 
+Building target: Estudiando05
+Invoking: GCC C++ Linker
+g++  -o "Estudiando05"  ./E05.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando05] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:11:24 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+22:11:24 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:24 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+Build not configured correctly
+22:12:56 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:12:56 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:56 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:57 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+Building target: Estudiando05
+Invoking: GCC C++ Linker
+g++  -o "Estudiando05"  ./E05.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando05] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:12:57 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:57 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+19:58:28 **** Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:05 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+Build not configured correctly
+20:03:14 **** Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:03:14 **** Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:14 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:14 **** Build of configuration Debug for project Estudiando05 ****
+make all 
+Building file: ../E05.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"E05.d" -MT"E05.o" -o "E05.o" "../E05.cpp"
+Finished building: ../E05.cpp
+ 
+Building target: Estudiando05
+Invoking: GCC C++ Linker
+g++  -o "Estudiando05"  ./E05.o   
+Finished building target: Estudiando05
+ 
+20:03:15 **** Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:15 **** Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:15 **** Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:5: error: no match for ‘operator<<’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘float’)
+  cin<<e;
+  ~~~^~~
+In file included from /usr/include/c++/8/string:52,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/basic_string.h:6323:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.h:6323:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/bits/ios_base.h:46,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/8/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:497:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:502:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:508:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:514:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:519:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:539:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/ostream:693,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:556:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:569:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:574:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:682:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_istream<char>&; _Tp = float]’:
+../src/U-Ataboada-11.cpp:25:7:   required from here
+/usr/include/c++/8/ostream:682:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+../src/U-Ataboada-11.cpp:27:5: error: no match for ‘operator<<’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘float’)
+  cin<<f;
+  ~~~^~~
+In file included from /usr/include/c++/8/string:52,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/basic_string.h:6323:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.h:6323:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/bits/ios_base.h:46,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/8/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:497:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:502:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:508:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:514:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:519:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:539:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/ostream:693,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:556:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:569:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:574:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:682:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_istream<char>&; _Tp = float]’:
+../src/U-Ataboada-11.cpp:27:7:   required from here
+/usr/include/c++/8/ostream:682:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+make: *** [src/subdir.mk:20: src/U-Ataboada-11.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+Build not configured correctly
+20:04:09 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:04:09 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:09 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:09 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:10 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:10 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:10 **** Incremental Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:5: error: no match for ‘operator<<’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘float’)
+  cin<<e;
+  ~~~^~~
+In file included from /usr/include/c++/8/string:52,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/basic_string.h:6323:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.h:6323:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/bits/ios_base.h:46,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/8/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:497:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:502:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:508:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:514:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:519:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:539:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/ostream:693,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:556:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:569:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:574:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:682:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_istream<char>&; _Tp = float]’:
+../src/U-Ataboada-11.cpp:25:7:   required from here
+/usr/include/c++/8/ostream:682:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+../src/U-Ataboada-11.cpp:27:5: error: no match for ‘operator<<’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘float’)
+  cin<<f;
+  ~~~^~~
+In file included from /usr/include/c++/8/string:52,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/basic_string.h:6323:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.h:6323:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/bits/ios_base.h:46,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/8/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:497:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:502:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:508:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:514:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:519:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:539:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/ostream:693,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:556:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:569:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:574:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:682:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_istream<char>&; _Tp = float]’:
+../src/U-Ataboada-11.cpp:27:7:   required from here
+/usr/include/c++/8/ostream:682:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+make: *** [src/subdir.mk:20: src/U-Ataboada-11.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+Build not configured correctly
+20:04:55 **** Clean-only build of configuration Debug for project Estudiando02 ****
+make clean 
+rm -rf  ./Estudiando02.o  ./Estudiando02.d  Estudiando02
+ 
+20:04:55 **** Clean-only build of configuration Default for project Estudiando03 ****
+make clean 
+rm -f Estudiando03.o Estudiando03
+20:04:55 **** Clean-only build of configuration Debug for project Estudiando04 ****
+make clean 
+rm -rf  ./main.o  ./main.d  Estudiando04
+ 
+20:04:55 **** Clean-only build of configuration Debug for project Estudiando05 ****
+make clean 
+rm -rf  ./E05.o  ./E05.d  Estudiando05
+ 
+20:04:55 **** Clean-only build of configuration Debug for project Estudiando06 ****
+make clean 
+rm -rf  ./src/Estudiando06.o  ./src/Estudiando06.d  Estudiando06
+ 
+20:04:55 **** Clean-only build of configuration Debug for project Prueba ****
+make clean 
+rm -rf  ./src/Prueba.o  ./src/Prueba.d  Prueba
+ 
+20:04:55 **** Clean-only build of configuration Debug for project U-Ataboada-11 ****
+make clean 
+rm -rf  ./src/U-Ataboada-11.o  ./src/U-Ataboada-11.d  U-Ataboada-11
+ 
+Build not configured correctly
+20:05:00 **** Build of configuration Debug for project Estudiando02 ****
+make all 
+Building file: ../Estudiando02.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Estudiando02.d" -MT"Estudiando02.o" -o "Estudiando02.o" "../Estudiando02.cpp"
+Finished building: ../Estudiando02.cpp
+ 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:05:00 **** Build of configuration Default for project Estudiando03 ****
+make all 
+g++ -O2 -g -Wall -fmessage-length=0   -c -o Estudiando03.o Estudiando03.cpp
+g++ -o Estudiando03 Estudiando03.o 
+20:05:00 **** Build of configuration Debug for project Estudiando04 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./main.o   
+Finished building target: Estudiando04
+ 
+20:05:01 **** Build of configuration Debug for project Estudiando05 ****
+make all 
+Building file: ../E05.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"E05.d" -MT"E05.o" -o "E05.o" "../E05.cpp"
+Finished building: ../E05.cpp
+ 
+Building target: Estudiando05
+Invoking: GCC C++ Linker
+g++  -o "Estudiando05"  ./E05.o   
+Finished building target: Estudiando05
+ 
+20:05:01 **** Build of configuration Debug for project Estudiando06 ****
+make all 
+Building file: ../src/Estudiando06.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Estudiando06.d" -MT"src/Estudiando06.o" -o "src/Estudiando06.o" "../src/Estudiando06.cpp"
+Finished building: ../src/Estudiando06.cpp
+ 
+Building target: Estudiando06
+Invoking: GCC C++ Linker
+g++  -o "Estudiando06"  ./src/Estudiando06.o   
+Finished building target: Estudiando06
+ 
+20:05:01 **** Build of configuration Debug for project Prueba ****
+make all 
+Building file: ../src/Prueba.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba.d" -MT"src/Prueba.o" -o "src/Prueba.o" "../src/Prueba.cpp"
+../src/Prueba.cpp: In function ‘int main()’:
+../src/Prueba.cpp:23:8: warning: unknown escape sequence: '\S'
+  cout<<"n\Sexo: "<<sexo<<endl;
+        ^~~~~~~~~~
+../src/Prueba.cpp:24:8: warning: unknown escape sequence: '\T'
+  cout<<"n\Talla: "<<altura<<endl;
+        ^~~~~~~~~~~
+Finished building: ../src/Prueba.cpp
+ 
+Building target: Prueba
+Invoking: Cross G++ Linker
+g++  -o "Prueba"  ./src/Prueba.o   
+Finished building target: Prueba
+ 
+20:05:02 **** Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:5: error: no match for ‘operator<<’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘float’)
+  cin<<e;
+  ~~~^~~
+In file included from /usr/include/c++/8/string:52,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/basic_string.h:6323:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.h:6323:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/bits/ios_base.h:46,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/8/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:497:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:502:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:508:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:514:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:519:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:539:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/ostream:693,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:556:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:569:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:574:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:25:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<e;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:682:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_istream<char>&; _Tp = float]’:
+../src/U-Ataboada-11.cpp:25:7:   required from here
+/usr/include/c++/8/ostream:682:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+../src/U-Ataboada-11.cpp:27:5: error: no match for ‘operator<<’ (operand types are ‘std::istream’ {aka ‘std::basic_istream<char>’} and ‘float’)
+  cin<<f;
+  ~~~^~~
+In file included from /usr/include/c++/8/string:52,
+                 from /usr/include/c++/8/bits/locale_classes.h:40,
+                 from /usr/include/c++/8/bits/ios_base.h:41,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/basic_string.h:6323:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+/usr/include/c++/8/bits/basic_string.h:6323:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/bits/ios_base.h:46,
+                 from /usr/include/c++/8/ios:42,
+                 from /usr/include/c++/8/ostream:38,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/system_error:217:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+/usr/include/c++/8/system_error:217:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:497:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:502:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:508:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:514:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:519:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:539:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/ostream:693,
+                 from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:556:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:569:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:574:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/U-Ataboada-11.cpp:27:7: note:   ‘std::istream’ {aka ‘std::basic_istream<char>’} is not derived from ‘std::basic_ostream<char, _Traits>’
+  cin<<f;
+       ^
+In file included from /usr/include/c++/8/iostream:39,
+                 from ../src/U-Ataboada-11.cpp:9:
+/usr/include/c++/8/ostream:682:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+     operator<<(_Ostream&& __os, const _Tp& __x)
+     ^~~~~~~~
+/usr/include/c++/8/ostream:682:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/8/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_istream<char>&; _Tp = float]’:
+../src/U-Ataboada-11.cpp:27:7:   required from here
+/usr/include/c++/8/ostream:682:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+make: *** [src/subdir.mk:20: src/U-Ataboada-11.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+Build not configured correctly
+20:08:01 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:08:01 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:02 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:02 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:02 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:02 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:02 **** Incremental Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:22: warning: ‘d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  resultado = a+(b/c) / d+(e/f);
+                ~~~~~~^~~
+Finished building: ../src/U-Ataboada-11.cpp
+ 
+Building target: U-Ataboada-11
+Invoking: GCC C++ Linker
+g++  -o "U-Ataboada-11"  ./src/U-Ataboada-11.o   
+Finished building target: U-Ataboada-11
+ 
+20:08:28 **** Incremental Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:25 **** Incremental Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:28: warning: ‘d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  resultado = (a+(b/c)) / (d+(e/f));
+                          ~~^~~~~~~
+Finished building: ../src/U-Ataboada-11.cpp
+ 
+Building target: U-Ataboada-11
+Invoking: GCC C++ Linker
+g++  -o "U-Ataboada-11"  ./src/U-Ataboada-11.o   
+Finished building target: U-Ataboada-11
+ 
+Build not configured correctly
+22:29:51 **** Clean-only build of configuration Debug for project Estudiando02 ****
+make clean 
+rm -rf  ./Estudiando02.o  ./Estudiando02.d  Estudiando02
+ 
+22:29:51 **** Clean-only build of configuration Default for project Estudiando03 ****
+make clean 
+rm -f Estudiando03.o Estudiando03
+22:29:51 **** Clean-only build of configuration Debug for project Estudiando04 ****
+make clean 
+rm -rf  ./main.o  ./main.d  Estudiando04
+ 
+22:29:51 **** Clean-only build of configuration Debug for project Estudiando05 ****
+make clean 
+rm -rf  ./E05.o  ./E05.d  Estudiando05
+ 
+22:29:51 **** Clean-only build of configuration Debug for project Estudiando06 ****
+make clean 
+rm -rf  ./src/Estudiando06.o  ./src/Estudiando06.d  Estudiando06
+ 
+22:29:51 **** Clean-only build of configuration Debug for project Prueba ****
+make clean 
+rm -rf  ./src/Prueba.o  ./src/Prueba.d  Prueba
+ 
+22:29:51 **** Clean-only build of configuration Debug for project U-Ataboada-11 ****
+make clean 
+rm -rf  ./src/U-Ataboada-11.o  ./src/U-Ataboada-11.d  U-Ataboada-11
+ 
+Build not configured correctly
+22:29:57 **** Build of configuration Debug for project Estudiando02 ****
+make all 
+Building file: ../Estudiando02.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Estudiando02.d" -MT"Estudiando02.o" -o "Estudiando02.o" "../Estudiando02.cpp"
+Finished building: ../Estudiando02.cpp
+ 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:29:57 **** Build of configuration Default for project Estudiando03 ****
+make all 
+g++ -O2 -g -Wall -fmessage-length=0   -c -o Estudiando03.o Estudiando03.cpp
+g++ -o Estudiando03 Estudiando03.o 
+22:29:57 **** Build of configuration Debug for project Estudiando04 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./main.o   
+Finished building target: Estudiando04
+ 
+22:29:57 **** Build of configuration Debug for project Estudiando05 ****
+make all 
+Building file: ../E05.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"E05.d" -MT"E05.o" -o "E05.o" "../E05.cpp"
+Finished building: ../E05.cpp
+ 
+Building target: Estudiando05
+Invoking: GCC C++ Linker
+g++  -o "Estudiando05"  ./E05.o   
+Finished building target: Estudiando05
+ 
+22:29:58 **** Build of configuration Debug for project Estudiando06 ****
+make all 
+Building file: ../src/Estudiando06.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Estudiando06.d" -MT"src/Estudiando06.o" -o "src/Estudiando06.o" "../src/Estudiando06.cpp"
+Finished building: ../src/Estudiando06.cpp
+ 
+Building target: Estudiando06
+Invoking: GCC C++ Linker
+g++  -o "Estudiando06"  ./src/Estudiando06.o   
+Finished building target: Estudiando06
+ 
+22:29:58 **** Build of configuration Debug for project Prueba ****
+make all 
+Building file: ../src/Prueba.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba.d" -MT"src/Prueba.o" -o "src/Prueba.o" "../src/Prueba.cpp"
+../src/Prueba.cpp: In function ‘int main()’:
+../src/Prueba.cpp:23:8: warning: unknown escape sequence: '\S'
+  cout<<"n\Sexo: "<<sexo<<endl;
+        ^~~~~~~~~~
+../src/Prueba.cpp:24:8: warning: unknown escape sequence: '\T'
+  cout<<"n\Talla: "<<altura<<endl;
+        ^~~~~~~~~~~
+Finished building: ../src/Prueba.cpp
+ 
+Building target: Prueba
+Invoking: Cross G++ Linker
+g++  -o "Prueba"  ./src/Prueba.o   
+Finished building target: Prueba
+ 
+22:29:58 **** Build of configuration Debug for project U-AT-12 ****
+make all 
+Building file: ../src/U-AT-12.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-12.d" -MT"src/U-AT-12.o" -o "src/U-AT-12.o" "../src/U-AT-12.cpp"
+../src/U-AT-12.cpp: In function ‘int main()’:
+../src/U-AT-12.cpp:20:20: error: ‘b’ cannot be used as a function
+  resultado=a+(b(c-d));
+                    ^
+make: *** [src/subdir.mk:20: src/U-AT-12.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:29:59 **** Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:28: warning: ‘d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  resultado = (a+(b/c)) / (d+(e/f));
+                          ~~^~~~~~~
+Finished building: ../src/U-Ataboada-11.cpp
+ 
+Building target: U-Ataboada-11
+Invoking: GCC C++ Linker
+g++  -o "U-Ataboada-11"  ./src/U-Ataboada-11.o   
+Finished building target: U-Ataboada-11
+ 
+Build not configured correctly
+22:43:24 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:43:24 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:24 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:24 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:25 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:25 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:25 **** Incremental Build of configuration Debug for project U-AT-12 ****
+make all 
+Building file: ../src/U-AT-12.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-12.d" -MT"src/U-AT-12.o" -o "src/U-AT-12.o" "../src/U-AT-12.cpp"
+../src/U-AT-12.cpp: In function ‘int main()’:
+../src/U-AT-12.cpp:20:20: error: ‘b’ cannot be used as a function
+  resultado=a+(b(c-d));
+                    ^
+make: *** [src/subdir.mk:20: src/U-AT-12.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:43:25 **** Incremental Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+make: Nothing to be done for 'all'.
+Build not configured correctly
+22:45:13 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:45:13 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:13 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:13 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:13 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:13 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:13 **** Incremental Build of configuration Debug for project U-AT-12 ****
+make all 
+Building file: ../src/U-AT-12.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-12.d" -MT"src/U-AT-12.o" -o "src/U-AT-12.o" "../src/U-AT-12.cpp"
+Finished building: ../src/U-AT-12.cpp
+ 
+Building target: U-AT-12
+Invoking: GCC C++ Linker
+g++  -o "U-AT-12"  ./src/U-AT-12.o   
+Finished building target: U-AT-12
+ 
+22:45:14 **** Incremental Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+make: Nothing to be done for 'all'.
+22:45:27 **** Incremental Build of configuration Debug for project U-AT-12 ****
+make all 
+make: Nothing to be done for 'all'.
+Build not configured correctly
+12:46:59 **** Clean-only build of configuration Debug for project Estudiando02 ****
+make clean 
+rm -rf  ./Estudiando02.o  ./Estudiando02.d  Estudiando02
+ 
+12:46:59 **** Clean-only build of configuration Default for project Estudiando03 ****
+make clean 
+rm -f Estudiando03.o Estudiando03
+12:46:59 **** Clean-only build of configuration Debug for project Estudiando04 ****
+make clean 
+rm -rf  ./main.o  ./main.d  Estudiando04
+ 
+12:46:59 **** Clean-only build of configuration Debug for project Estudiando05 ****
+make clean 
+rm -rf  ./E05.o  ./E05.d  Estudiando05
+ 
+12:46:59 **** Clean-only build of configuration Debug for project Estudiando06 ****
+make clean 
+rm -rf  ./src/Estudiando06.o  ./src/Estudiando06.d  Estudiando06
+ 
+12:46:59 **** Clean-only build of configuration Debug for project Prueba ****
+make clean 
+rm -rf  ./src/Prueba.o  ./src/Prueba.d  Prueba
+ 
+12:46:59 **** Clean-only build of configuration Debug for project U-AT-12 ****
+make clean 
+rm -rf  ./src/U-AT-12.o  ./src/U-AT-12.d  U-AT-12
+ 
+12:46:59 **** Clean-only build of configuration Debug for project U-Ataboada-11 ****
+make clean 
+rm -rf  ./src/U-Ataboada-11.o  ./src/U-Ataboada-11.d  U-Ataboada-11
+ 
+Build not configured correctly
+12:47:03 **** Build of configuration Debug for project Estudiando02 ****
+make all 
+Building file: ../Estudiando02.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Estudiando02.d" -MT"Estudiando02.o" -o "Estudiando02.o" "../Estudiando02.cpp"
+Finished building: ../Estudiando02.cpp
+ 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:47:04 **** Build of configuration Default for project Estudiando03 ****
+make all 
+g++ -O2 -g -Wall -fmessage-length=0   -c -o Estudiando03.o Estudiando03.cpp
+g++ -o Estudiando03 Estudiando03.o 
+12:47:04 **** Build of configuration Debug for project Estudiando04 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: Estudiando04
+Invoking: GCC C++ Linker
+g++  -o "Estudiando04"  ./main.o   
+Finished building target: Estudiando04
+ 
+12:47:04 **** Build of configuration Debug for project Estudiando05 ****
+make all 
+Building file: ../E05.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"E05.d" -MT"E05.o" -o "E05.o" "../E05.cpp"
+Finished building: ../E05.cpp
+ 
+Building target: Estudiando05
+Invoking: GCC C++ Linker
+g++  -o "Estudiando05"  ./E05.o   
+Finished building target: Estudiando05
+ 
+12:47:05 **** Build of configuration Debug for project Estudiando06 ****
+make all 
+Building file: ../src/Estudiando06.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Estudiando06.d" -MT"src/Estudiando06.o" -o "src/Estudiando06.o" "../src/Estudiando06.cpp"
+Finished building: ../src/Estudiando06.cpp
+ 
+Building target: Estudiando06
+Invoking: GCC C++ Linker
+g++  -o "Estudiando06"  ./src/Estudiando06.o   
+Finished building target: Estudiando06
+ 
+12:47:05 **** Build of configuration Debug for project Prueba ****
+make all 
+Building file: ../src/Prueba.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prueba.d" -MT"src/Prueba.o" -o "src/Prueba.o" "../src/Prueba.cpp"
+../src/Prueba.cpp: In function ‘int main()’:
+../src/Prueba.cpp:23:8: warning: unknown escape sequence: '\S'
+  cout<<"n\Sexo: "<<sexo<<endl;
+        ^~~~~~~~~~
+../src/Prueba.cpp:24:8: warning: unknown escape sequence: '\T'
+  cout<<"n\Talla: "<<altura<<endl;
+        ^~~~~~~~~~~
+Finished building: ../src/Prueba.cpp
+ 
+Building target: Prueba
+Invoking: Cross G++ Linker
+g++  -o "Prueba"  ./src/Prueba.o   
+Finished building target: Prueba
+ 
+12:47:06 **** Build of configuration Debug for project U-AT-12 ****
+make all 
+Building file: ../src/U-AT-12.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-12.d" -MT"src/U-AT-12.o" -o "src/U-AT-12.o" "../src/U-AT-12.cpp"
+Finished building: ../src/U-AT-12.cpp
+ 
+Building target: U-AT-12
+Invoking: GCC C++ Linker
+g++  -o "U-AT-12"  ./src/U-AT-12.o   
+Finished building target: U-AT-12
+ 
+12:47:06 **** Build of configuration Debug for project U-AT-13 ****
+make all 
+Building file: ../src/U-AT-13.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-13.d" -MT"src/U-AT-13.o" -o "src/U-AT-13.o" "../src/U-AT-13.cpp"
+Finished building: ../src/U-AT-13.cpp
+ 
+Building target: U-AT-13
+Invoking: GCC C++ Linker
+g++  -o "U-AT-13"  ./src/U-AT-13.o   
+Finished building target: U-AT-13
+ 
+12:47:06 **** Build of configuration Debug for project U-Ataboada-11 ****
+make all 
+Building file: ../src/U-Ataboada-11.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-Ataboada-11.d" -MT"src/U-Ataboada-11.o" -o "src/U-Ataboada-11.o" "../src/U-Ataboada-11.cpp"
+../src/U-Ataboada-11.cpp: In function ‘int main()’:
+../src/U-Ataboada-11.cpp:25:28: warning: ‘d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  resultado = (a+(b/c)) / (d+(e/f));
+                          ~~^~~~~~~
+Finished building: ../src/U-Ataboada-11.cpp
+ 
+Building target: U-Ataboada-11
+Invoking: GCC C++ Linker
+g++  -o "U-Ataboada-11"  ./src/U-Ataboada-11.o   
+Finished building target: U-Ataboada-11
+ 
+12:47:31 **** Incremental Build of configuration Debug for project U-AT-13 ****
+make all 
+make: Nothing to be done for 'all'.
+12:51:20 **** Incremental Build of configuration Debug for project U-AT-13 ****
+make all 
+Building file: ../src/U-AT-13.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-13.d" -MT"src/U-AT-13.o" -o "src/U-AT-13.o" "../src/U-AT-13.cpp"
+Finished building: ../src/U-AT-13.cpp
+ 
+Building target: U-AT-13
+Invoking: GCC C++ Linker
+g++  -o "U-AT-13"  ./src/U-AT-13.o   
+Finished building target: U-AT-13
+ 
+Build not configured correctly
+13:07:14 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+13:07:15 **** Incremental Build of configuration Default for project Estudiando03 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:15 **** Incremental Build of configuration Debug for project Estudiando04 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:15 **** Incremental Build of configuration Debug for project Estudiando05 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:15 **** Incremental Build of configuration Debug for project Estudiando06 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:15 **** Incremental Build of configuration Debug for project Prueba ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:15 **** Incremental Build of configuration Debug for project U-AT-12 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:15 **** Incremental Build of configuration Debug for project U-AT-13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:16 **** Build of configuration Debug for project U-AT-14 ****
+make all 
+Building file: ../src/U-AT-14.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/U-AT-14.d" -MT"src/U-AT-14.o" -o "src/U-AT-14.o" "../src/U-AT-14.cpp"
+Finished building: ../src/U-AT-14.cpp
+ 
+Building target: U-AT-14
+Invoking: GCC C++ Linker
+g++  -o "U-AT-14"  ./src/U-AT-14.o   
+Finished building target: U-AT-14
+ 
+13:07:25 **** Incremental Build of configuration Debug for project U-AT-14 ****
+make all 
+make: Nothing to be done for 'all'.

@@ -1,0 +1,13 @@
+13:07:14 **** Incremental Build of configuration Debug for project Estudiando02 ****
+make all 
+Building target: Estudiando02
+Invoking: Cross G++ Linker
+g++  -o "Estudiando02"  ./Estudiando02.o   
+/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:46: Estudiando02] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:07:15 Build Failed. 3 errors, 0 warnings. (took 117ms)
+

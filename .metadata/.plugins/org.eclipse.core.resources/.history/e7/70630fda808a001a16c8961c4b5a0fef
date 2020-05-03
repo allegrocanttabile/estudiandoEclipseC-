@@ -1,0 +1,14 @@
+/*
+ * Estudiando05.h
+ *
+ *  Created on: Apr 29, 2020
+ *      Author: allegro
+ */
+
+#ifndef ESTUDIANDO05_H_
+#define ESTUDIANDO05_H_
+
+class Estudiando05 {
+};
+
+#endif /* ESTUDIANDO05_H_ */
